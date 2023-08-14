@@ -1,0 +1,46 @@
+.textUploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color:  #f2f2f2;
+    margin-top: 3px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+  }
+    
+  .textUploader__textarea {
+    width: 90%;
+    height: 40%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    resize: none;
+    overflow-y: auto;
+  }
+  
+  .textUploader__button {
+    width: 50%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .textUploader__button:hover {
+    background-color: #0062cc;
+  }
+  
+  .textUploader__button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
